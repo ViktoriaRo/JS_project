@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Titles extends React.Component {
-	render() {
+const Titles = () => {
 		return (
 			<div>
 				<h1 className="title-container__title"> 
@@ -12,7 +11,6 @@ class Titles extends React.Component {
 				</p>
 			</div>
 		);
-	}
 };
 
 export default Titles;

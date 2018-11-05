@@ -1,11 +1,22 @@
 import React from 'react';
+import axios from 'axios';
 import Titles from './Titles';
 import Form from './Form';
 
+class Feedback extends  React.Component {
+	state = {
+		persons: [],
+	}
 
-class Contacts extends React.Component {
+	omponentDidMount() {
+		axios.get(`http://jsonplaceholder.typicode.com/users`).then(res => {
+			console.log(res);
+			this.setState({persons: res.data});
+		});
+	}
+
 	render() {
-		return (
+		return(
 			<div>
 				<div className="wrapper">
 					<div className="main">
@@ -15,8 +26,8 @@ class Contacts extends React.Component {
 									<Titles />
 								</div>
 								<div className="col-xs-7 form-container">
-									<Form getWeather={this.getWeather} />
-										hello from Contacts...
+									
+										Write your feedback here...
 								</div>
 							</div>
 						</div>
@@ -25,6 +36,6 @@ class Contacts extends React.Component {
 			</div>	
 		);
 	}
-};		
+};
 
-export default Contacts;
+export default Feedback;
