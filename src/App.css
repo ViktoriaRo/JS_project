@@ -50,9 +50,10 @@ body {
 
 .form-container {
   background-color: #2c3e50;
+  width: 65%;
   height: 90vh;
   padding-top: 100px;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
 input[type="text"] {
@@ -124,4 +125,8 @@ button:active {
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 200;
+}
+
+.container {
+  padding-right: 0px;
 }
