@@ -2,6 +2,14 @@
 
 This is a JS project for course "JS for Enterprise Development". This is an application that uses Weather API for determinig current temperature, humidity... by City and Country. 
 
+## Instaling dependencies
+
+The project includes React and ReactDOM as dependencies. It also includes a set of scripts like React Router. You may install other dependencies with npm:
+
+`npm install`
+
+`npm install --save react-router`
+
 ## Available Scripts
 
 In the project directory, you can run:
