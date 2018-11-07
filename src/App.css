@@ -70,6 +70,17 @@ body {
     -webkit-text-fill-color: #fff !important;
 }
 
+#feedback-input {
+  border-bottom: solid 1px #f16051;
+   padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
 button {
   border: 0;
   padding: 8px 20px;
