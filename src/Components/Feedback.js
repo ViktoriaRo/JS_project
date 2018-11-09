@@ -10,7 +10,7 @@ class Feedback extends Component {
 			name: 'John', 
 			surname: 'Smith',
 			content: 'Easy to use. Nice interface. I like it!',
-			id: 2
+			id: 1
 		}
 	]
   }
