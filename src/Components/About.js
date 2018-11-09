@@ -8,10 +8,6 @@ class About extends React.Component {
 		this.props.deletePost(this.props.posts.id);
 	}
 
-	handleRestore = () => {
-		this.props.history.push('/about');
-	}
-
 	render(){
 		console.log(this.props.posts);
 		const { posts } = this.props;
@@ -41,9 +37,7 @@ class About extends React.Component {
 							</div>
 							<div className="col-7 form-container">
 						          {postList}
-		              			<button onClick={this.handleClick}>delete</button>
-		             			<button onClick={this.handleRestore}>Restore</button>
-
+		              			<button className="right" onClick={this.handleClick}>Delete posts</button>
 							</div>
 						</div>
 					</div>
