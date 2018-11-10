@@ -11,7 +11,7 @@ const FeedbackContainer = ({feedback}) => {
               <div  className="weather__key">{ feed.name } { feed.surname }</div>
               <div className="weather__value">{ feed.content }</div>
             </div>
-          ) : (<div  className="weather__key"> nodfndun fkjh </div>)
+          ) : (<div  className="weather__key"> You should input your feedback </div>)
         })
       }
     </div>
