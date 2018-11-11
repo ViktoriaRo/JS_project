@@ -1,0 +1,6 @@
+id, class, tag, inline, как рендерить браузер, как их перебить? css specific
+inline, id, class, elements pseoudo elements
+1000, 100, 10, 1
+example: body #content .data img:hover
+100 for #content, 10 for .data, 10 for :hover, 1 for body and 1 for img.
+function tests

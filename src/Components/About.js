@@ -9,7 +9,6 @@ class About extends React.Component {
 	}
 
 	render(){
-		console.log(this.props.posts);
 		const { posts } = this.props;
 		const postList = posts.length ? (
 			posts.map(post => {

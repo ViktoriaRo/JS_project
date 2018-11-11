@@ -19,10 +19,10 @@ class FeedbackForm extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <input type="text" id="name" onChange={this.handleChange} placeholder='Name...' />
+          <input type="text" required id="name" onChange={this.handleChange} placeholder='Name...' />
           <input type="text" id="surname" onChange={this.handleChange} placeholder='Surname...' />
           <button>Submit feedback</button>
-          <textarea className="materialize-textarea" id="content" onChange={this.handleChange} placeholder='Your feedback...' />
+          <textarea required className="materialize-textarea" id="content" onChange={this.handleChange} placeholder='Your feedback...' />
         </form>
       </div>
     )
